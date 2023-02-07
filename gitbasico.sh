@@ -20,7 +20,7 @@ inicio=`date +%s`
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2023-02-07 properties entornos para microservicio-items"
+message="$(date)2023-02-07 NO VA EL PROPERTIES,NO LO LEE"
 fi
 
 git add .
